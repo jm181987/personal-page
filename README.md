@@ -1,5 +1,5 @@
-# one-page-website
-One Page Personal Website
+# Personal Website of Jorge Marquez
+
 
 <p align="center">
   <img src="./assets/images/readme.png" width="850"/>
