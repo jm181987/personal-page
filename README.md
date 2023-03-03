@@ -2,5 +2,5 @@
 One Page Personal Website
 
 <p align="center">
-  <img src="assets/images/screenshot.png" width="850"/>
+  <img src="./assets/images/readme.png" width="850"/>
 </p>
