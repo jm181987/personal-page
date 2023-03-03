@@ -10,6 +10,10 @@
 @import "./footer.css";
 @import "./mobile.css";
 
+
+ 
+ @media (min-width: 950px) and (max-width: 991px) {
+ }
 .subir {
   display: flex;
   justify-content: center;

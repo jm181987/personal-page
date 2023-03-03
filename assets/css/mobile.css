@@ -1,4 +1,4 @@
-@media (max-width: 550px) {
+@media (max-width: 2150px) {
     /* ---- GENERALES ---- */
     html {
         font-size: 12px;
@@ -14,7 +14,7 @@
         }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 250px) {
     /* ---- HERO ---- */
 	.hero {
         height: auto;
