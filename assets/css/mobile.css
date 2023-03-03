@@ -1,0 +1,79 @@
+@media (max-width: 550px) {
+    /* ---- GENERALES ---- */
+    html {
+        font-size: 12px;
+    }
+
+    /* ---- HERO ---- */
+    .hero {
+        height: 250px;
+		
+    }	
+        .hero-border-imagen {
+            border-top-width: 150px;
+        }
+}
+
+@media (max-width: 350px) {
+    /* ---- HERO ---- */
+	.hero {
+        height: auto;
+		background-image: url("../images/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+        .hero-imagen-container {
+            display: none;
+        }
+
+    /* ---- NAVBAR ---- */
+    .navbar-menu-link {
+        margin-right: .4em;
+    }
+    .navbar-menu-link:last-of-type {
+        margin-left: .2em;
+    }
+
+    /* ---- PORTAFOLIO ---- */
+	.portafolio-proyecto {
+		grid-template-columns: 1fr;
+	}
+    
+        .proyecto-imagen-container {
+            padding: 0 20%;
+        }
+
+    /* ---- EXPERIENCIA ---- */
+	.experiencias-galeria {
+		grid-template-columns: 1fr;
+    }
+    
+        .galeria-experiencia:nth-of-type(1n+3) {
+            display: none;
+        }
+}
+
+@media (max-width: 550px) {
+    /* ---- GENERALES ---- */
+    html {
+        font-size: 10px;
+    }
+
+    /* ---- HERO ---- */
+    .hero {
+        height: 200px;
+    }	
+}
+
+@media (max-width: 425px) {
+    /* ---- GENERALES ---- */
+    html {
+        font-size: 8px;
+    }
+
+    /* ---- HERO ---- */
+    .hero {
+        height: 150px;
+    }	
+}

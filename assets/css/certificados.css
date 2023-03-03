@@ -1,0 +1,202 @@
+
+@import "./navbar.css";
+.body {
+  display: flex;
+  
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png")
+    repeat;
+  font-family: "Open Sans", Impact;
+}
+.area {
+   
+  margin-top: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  color: #3ca7a7;
+  letter-spacing: 7px;
+  font-weight: 500;
+  text-transform: uppercase;
+  animation: blur 0.75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
+      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
+  }
+}
+
+.subir2 {
+  transform: scale(0.85);
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 19px;
+  color: #56afc5;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 500;
+
+  transition: 0.5s;
+  transition-property: box-shadow;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 25px rgb(11, 27, 71);
+}
+.subir2:hover {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgb(0, 255, 200), 0 0 25px rgb(51, 14, 78),
+    0 0 50px rgb(0, 238, 255), 0 0 100px rgb(0, 255, 170);
+}
+.subir {
+  transform: scale(0.85);
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 19px;
+  color: #56afc5;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 500;
+
+  transition: 0.5s;
+  transition-property: box-shadow;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 25px rgb(11, 27, 71);
+}
+
+.subir:hover {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgb(0, 255, 200), 0 0 25px rgb(51, 14, 78),
+    0 0 50px rgb(0, 238, 255), 0 0 100px rgb(0, 255, 170);
+}
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  width: 100%;
+
+  width: 100%;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2 var(--espaciado-muy-alto);
+  display: grid;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  margin: 2 var(--espaciado-muy-alto);
+  align-items: center;
+}
+.navbar {
+  padding: 0 var(--espaciado-normal);
+  box-sizing: border-box;
+  color: var(--color-white);
+  background-color: var(--color-principal);
+  box-shadow: var(--box-shadow);
+
+  font-size: 1.05em;
+  letter-spacing: 0.05em;
+
+  position: relative;
+  z-index: 600;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2em;
+}
+
+.navbar-logo {
+  margin: 0.9em 0;
+  display: flex;
+  align-items: left;
+}
+
+.navbar-logo-imagen {
+  width: 80px;
+}
+
+.navbar-logo-nombre {
+  margin: 0;
+  margin-left: 0.5em;
+}
+
+.navbar-menu {
+  height: inherit;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-menu-link {
+  padding: 0.5em;
+  margin-right: 1em;
+  color: var(--color-white);
+  text-decoration: none;
+  transition: 150ms;
+}
+.navbar-menu-link:hover {
+  transform: scale(0.95);
+
+  box-shadow: 0 0 5px rgb(0, 255, 200), 0 0 25px rgb(51, 14, 78),
+    0 0 50px rgb(0, 238, 255), 0 0 100px rgb(0, 255, 170);
+}
+.navbar-menu-link:last-of-type {
+  margin: 0;
+  margin-left: 0.5em;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-white);
+}
+
+
+.contactos-redes {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+  .icono {
+    color: black;
+    font-size: 2em;
+    transition: 150ms;
+  }
+  .icono:hover {
+    transform: scale(.95);
+    box-shadow: #c40000;
+  }
+  .contactos-grilla {
+		background-color: rgba(112, 107, 107, 0.137);
+    color: rgb(0, 0, 0);
+    display: grid;
+		grid-auto-flow: column;
+	}
+
+			
