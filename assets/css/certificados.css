@@ -198,5 +198,11 @@ body {
     display: grid;
 		grid-auto-flow: column;
 	}
+  .certificados-menu-link{
+    display: flex;
+ justify-content: center;
+  
+
+  }
 
 			
