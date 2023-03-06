@@ -1,7 +1,8 @@
 /* --------------------------- *\
 		CONOCIMIENTOS
 \* --------------------------- */
-
+@media (min-width: 450px) and (max-width: 991px) {
+}
 .conocimientos {
 	background-color: var(--color-white-fondo);
 	position: relative;

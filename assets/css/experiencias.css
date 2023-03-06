@@ -1,8 +1,8 @@
 /* --------------------------- *\
 		EXPERIENCIAS
 \* --------------------------- */
-
-.experiencias {
+@media (min-width: 450px) and (max-width: 991px) {
+}.experiencias {
 	background-color: var(--color-white-fondo);
 	position: relative;
 	z-index: 300;

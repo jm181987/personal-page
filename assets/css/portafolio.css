@@ -1,7 +1,8 @@
 /* --------------------------- *\
 			PORTAFOLIO
 \* --------------------------- */
-
+@media (min-width: 450px) and (max-width: 991px) {
+}
 .portafolio {
 	background-color: var(--color-white-fondo);
 	position: relative;

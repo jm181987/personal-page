@@ -1,7 +1,8 @@
 /* --------------------------- *\
 			CONTACTOS
 \* --------------------------- */
-
+@media (min-width: 450px) and (max-width: 991px) {
+}
 .contactos {
 	background-color: var(--color-secundario);
 	position: relative;

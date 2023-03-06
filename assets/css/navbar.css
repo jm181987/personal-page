@@ -1,7 +1,8 @@
 /* --------------------------- *\
 			NAVBAR
 \* --------------------------- */
-
+@media (min-width: 450px) and (max-width: 991px) {
+}
 .navbar {
 	padding: 0 var(--espaciado-normal);
 	box-sizing: border-box;
