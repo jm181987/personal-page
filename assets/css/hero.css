@@ -18,6 +18,7 @@
 .hero-imagen:hover {
 box-shadow: 0px 0px 15px 15px #211eec;
 -webkit-box-shadow: 0px 0px 15px 15px #211eec;
+-webkit-transform:scale(1.2);transform:scale(1.2);
 
 }
 	.hero-titulo {
