@@ -1,12 +1,12 @@
 /* --------------------------- *\
 			PORTAFOLIO
 \* --------------------------- */
-@media (min-width: 450px) and (max-width: 991px) {
+@media (min-width: 450px) and (max-width: 1980) {
 }
 .portafolio {
 	background-color: var(--color-white-fondo);
 	position: relative;
-	z-index: 400;
+	z-index: 600;
 }
 
 	.portafolio-proyecto {
