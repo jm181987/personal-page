@@ -1,4 +1,7 @@
-@import "./navbar.css";
+
+
+
+
 .body {
   display: flex;
 }
@@ -124,23 +127,19 @@ body {
 
   display: grid;
   grid-auto-flow: column;
-  grid-gap: 2em;
 }
 
 .navbar-logo {
   margin: 0.9em 0;
   display: flex;
-  align-items: left;
+  align-items: center;
 }
 
 .navbar-logo-imagen {
   width: 80px;
 }
 
-.navbar-logo-nombre {
-  margin: 0;
-  margin-left: 0.5em;
-}
+
 
 .navbar-menu {
   height: inherit;
