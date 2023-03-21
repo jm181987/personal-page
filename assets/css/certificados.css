@@ -53,6 +53,7 @@ body {
   letter-spacing: 4px;
   font-weight: 500;
   font-family: 'Fjalla One', sans-serif;
+  text-decoration: none;
   transition: 0.5s;
   transition-property: box-shadow;
   background: rgb(0, 0, 0);
@@ -78,7 +79,7 @@ body {
   letter-spacing: 4px;
   font-weight: 500;
   font-family: 'Fjalla One', sans-serif;
-	
+  text-decoration: none;
   transition: 0.5s;
   transition-property: box-shadow;
   background: rgb(0, 0, 0);
@@ -210,4 +211,5 @@ body {
   cursor: pointer;
   width: auto;
   font-family: 'Fjalla One', sans-serif;
+  text-decoration: none;
 }

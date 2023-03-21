@@ -32,6 +32,13 @@
 					height: 100%;
 					object-fit: cover;
 				}
+				.experiencia-multimedia:hover{
+					-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+
+
+				}
 
 			.experiencia-contenido {
 				margin: 0 var(--espaciado-alto);

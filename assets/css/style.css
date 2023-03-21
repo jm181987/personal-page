@@ -88,7 +88,9 @@ p {
   font-size: 35px;
   color: #fafdfb;
   line-height: 28px;
+
 }
+
 
 ::-moz-selection {
   background: #b8a07e;
@@ -558,7 +560,7 @@ transform: scale(.85);
   border-radius: 7px;
   letter-spacing: 4px;
   font-weight: 700;
-  
+  text-decoration: none;
   transition: 0.5s;
   transition-property: box-shadow;
   background: rgb(0, 0, 0);
