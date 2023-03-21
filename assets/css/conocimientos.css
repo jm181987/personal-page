@@ -49,5 +49,8 @@
 .conocimientos-jorge {
   width: 100%;
   vertical-align: center;
+  -webkit-box-shadow: 0px 0px 15px 15px #1c7ece;
 }
+.conocimientos-jorge:hover{
 
+}
