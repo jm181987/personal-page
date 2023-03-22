@@ -5,19 +5,12 @@ $(document).ready(function() {
 
  
 
-  // ========================================================================= //
-  //  // RESPONSIVE MENU
-  // ========================================================================= //
-
-  $('.responsive').on('click', function(e) {
-    $('.nav-menu').slideToggle();
-  });
 
   // ========================================================================= //
   //  Typed Js
   // ========================================================================= //
 
-  var typed = $(".typed");
+  let typed = $(".typed");
 
   $(function() {
     typed.typed({
@@ -33,11 +26,3 @@ $(document).ready(function() {
 });
 
 
-
-// Toggle menu on mobile devices
-const menuToggle = document.querySelector('.menu-toggle');
-const menu = document.querySelector('.menu');
-
-menuToggle.addEventListener('click', () => {
-  menu.classList.toggle('show-menu');
-});
