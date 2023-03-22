@@ -2,41 +2,18 @@
 
 
 
-.body {
-  display: flex;
-}
+
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png")
-    repeat;
+  margin: 0;
   font-family: "Open Sans", Impact;
 }
-.area {
-  margin-top: 5px;
-  margin-bottom: 25px;
-  text-align: center;
-  font-size: 35px;
-  width: 100%;
-  color: #133838;
-  letter-spacing: 13px;
-  font-weight: 500;
-  text-transform: uppercase;
-  animation: blur 0.75s ease-out infinite;
-  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
-}
 
-@keyframes blur {
-  from {
-    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
-      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
-      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
-      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
-  }
-}
+
+
+  
 
 .subir2 {
   transform: scale(0.85);
@@ -118,7 +95,7 @@ body {
   align-items: center;
 }
 .navbar {
-  padding: 0 var(--espaciado-normal);
+  margin-bottom: 15px; 
   box-sizing: border-box;
   color: var(--color-white);
   background-color: var(--color-principal);
@@ -133,7 +110,13 @@ background-color: #000000;
   display: grid;
   grid-auto-flow: column;
 }
-
+.titulo-nav {
+color: #439ed3;
+display:flex;
+font-family: 'Fjalla One', sans-serif;
+font-weight: 600;
+padding-left: 10px;
+}
 .logo {
   margin: 0px 0;
   display: flex;
