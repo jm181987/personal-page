@@ -123,7 +123,7 @@ body {
   color: var(--color-white);
   background-color: var(--color-principal);
   box-shadow: var(--box-shadow);
-
+background-color: #000000;
   font-size: 1.05em;
   letter-spacing: 0.05em;
 
@@ -134,32 +134,33 @@ body {
   grid-auto-flow: column;
 }
 
-.navbar-logo {
-  margin: 0.9em 0;
+.logo {
+  margin: 0px 0;
   display: flex;
   align-items: center;
+ 
 }
 
 .navbar-logo-imagen {
-  width: 80px;
+  width: 50px;
 }
 
 
 
-.navbar-menu {
-  height: inherit;
-
+.menu {
+  
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin: 0.9em 0;
 }
 
 .navbar-menu-link {
   padding: 0.5em;
   margin-right: 1em;
-  color: var(--color-white);
   text-decoration: none;
   transition: 150ms;
+color: #000000;
   font-family: 'Fjalla One', sans-serif;
 }
 .navbar-menu-link:hover {
@@ -213,3 +214,57 @@ body {
   font-family: 'Fjalla One', sans-serif;
   text-decoration: none;
 }
+
+
+
+/* Navbar styles */
+
+  
+.logo a {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+  }
+  
+  .menu {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+  }
+  
+  .menu li {
+	margin: 0 0px;
+	justify-content: center;
+  }
+  
+  .menu li a {
+	text-decoration: none;
+	color: #ffffff;
+  }
+  
+  /* Mobile styles */
+  @media only screen and (max-width: 500px) {
+	.menu {
+	  display: none;
+	}
+  
+	.menu-toggle {
+	  display: block;
+	  cursor: pointer;
+	  color: #ffffff;
+	  display: flex;
+		align-items: center;
+		justify-content: flex-end;
+    padding-right: 15px;
+	}
+  }
+  
+  /* Tablet and desktop styles */
+  @media only screen and (min-width: 501px) {
+	.menu-toggle {
+	  display: none;
+	}
+  }
