@@ -9,6 +9,7 @@
 body {
   margin: 0;
   font-family: "Open Sans", Impact;
+display: grid;
 }
 
 
@@ -70,12 +71,10 @@ body {
 }
 
 .card-img-top {
-  display: flex;
+  width: 100%;
   justify-content: center;
-  width: 100%;
-  width: 100%;
+  
 
-  width: 100%;
 }
 .card-title {
   display: flex;
@@ -90,7 +89,8 @@ body {
 .card-text {
   display: flex;
   justify-content: center;
-  font-size: 19px;
+  font-size: 14px;
+  font-weight: 600;
   margin: 2 var(--espaciado-muy-alto);
   align-items: center;
 }
@@ -137,6 +137,8 @@ padding-left: 10px;
   margin: 0.9em 0;
 }
 
+.show-menu{color: #fff;}
+
 .navbar-menu-link {
   padding: 0.5em;
   margin-right: 1em;
@@ -181,18 +183,20 @@ color: #000000;
   grid-auto-flow: column;
 }
 .certificados-menu-link {
+ 
+  margin-bottom: 15px;
   letter-spacing: 0.3ch;
   transform: scale(0.8);
   display: flex;
   justify-content: center;
   background-color: #3f51b5;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: none;
   border-radius: 4px;
   font-size: 18px;
   cursor: pointer;
-  width: auto;
+  
   font-family: 'Fjalla One', sans-serif;
   text-decoration: none;
 }
@@ -250,3 +254,7 @@ color: #000000;
 	  display: none;
 	}
   }
+
+
+
+
