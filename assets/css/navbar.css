@@ -6,7 +6,7 @@
 	padding: 0 var(--espaciado-normal);
 	box-sizing: border-box;
 	color: var(--color-white);
-	background-color: var(--color-principal);
+	background-color: black;
 	box-shadow: var(--box-shadow);
 
 	font-size: 1.05em;
