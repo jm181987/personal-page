@@ -25,6 +25,13 @@
 		display: flex;
 		align-items: center;
 	}
+	.titulo-nav {
+		color: #439ed3;
+		display:flex;
+		font-family: 'Fjalla One', sans-serif;
+		font-weight: 600;
+		padding-left: 10px;
+		}
 
 		.navbar-logo-imagen {
 			height: var(--espaciado-muy-alto);
