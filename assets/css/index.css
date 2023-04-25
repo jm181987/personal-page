@@ -39,7 +39,16 @@ transform: scale(.85);
   box-shadow: 0 0 5px rgb(0, 255, 200), 0 0 25px rgb(51, 14, 78),
     0 0 50px rgb(0, 238, 255), 0 0 100px rgb(0, 255, 170);
 }
-.contvis{
-justify-content: end;
+.contvis {
+justify-content: center;
 align-items: flex-end;
+}
+.redsoc {
+  color: var(--color-white);
+  font-size: 3em;
+  transition: 150ms;
+}
+.redsoc:hover {
+  box-shadow: 0 0 5px rgb(0, 255, 200), 0 0 25px rgb(51, 14, 78),
+    0 0 50px rgb(0, 238, 255), 0 0 100px rgb(0, 255, 170);
 }

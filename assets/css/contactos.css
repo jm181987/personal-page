@@ -72,9 +72,7 @@
 		}
 
 			.icono {
-				color: var(--color-white);
-				font-size: 3em;
-				transition: 150ms;
+				
 			}
 			.icono:hover {
 				transform: scale(.95);
