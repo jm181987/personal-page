@@ -255,6 +255,18 @@ color: #000000;
 	}
   }
 
+  .galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  
+  .galeria img{
+    max-width: 600px;
+    padding: 1rem;
+  }
 
 
-
+  .galeria img:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.11);
+  }
