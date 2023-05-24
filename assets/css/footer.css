@@ -10,7 +10,7 @@
 	.footer-agradecimientos,
 	.footer-dedicatoria {
 		font-size: 0.9em;
-		margin: 1em var(--espaciado-normal);
+		margin: 0.5em var(--espaciado-normal);
 		color: var(--color-white);
 
 		font-weight: 300;
