@@ -14,7 +14,6 @@
 		color: var(--color-white);
 
 		font-weight: 300;
-		line-height: 3em;
 	}
 
 	.footer-agradecimientos img {
@@ -24,6 +23,7 @@
 
 	.footer-dedicatoria {
 		text-align: left;
+		color: var(--color-white);
 	}
 	.footer-dedicatoria a {
 		color: var(--color-white);
