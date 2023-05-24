@@ -265,15 +265,33 @@ color: #000000;
     max-width: 600px;
     padding: 1rem;
   }
+  
 
 
   .galeria img:hover{
     -webkit-transform:scale(1.1);transform:scale(1.03);
-    opacity: .9;
    box-shadow: 5px 8px 12px black;
    cursor:pointer;
-
-
-    
-
+   }
+   .tooltip {
+    position: relative;
+    align-items:center;
+    display: inline-block;
+    /*border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(88, 125, 131);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
