@@ -10,6 +10,8 @@ body {
   margin: 0;
   font-family: "Open Sans", Impact;
 display: grid;
+max-width: 100%;
+
 }
 
 
@@ -233,19 +235,8 @@ color: #000000;
   
   /* Mobile styles */
   @media only screen and (max-width: 500px) {
-	.menu {
-	  display: none;
-	}
-  
-	.menu-toggle {
-	  display: block;
-	  cursor: pointer;
-	  color: #ffffff;
-	  display: flex;
-		align-items: center;
-		justify-content: flex-end;
-    padding-right: 15px;
-	}
+	
+	
   }
   
   /* Tablet and desktop styles */
@@ -259,10 +250,12 @@ color: #000000;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    overflow-x: hidden;
+    padding: 6px;
   }
   
   .galeria img{
-    max-width: 450px;
+    max-width: 350px;
     padding: 1rem;
   }
   

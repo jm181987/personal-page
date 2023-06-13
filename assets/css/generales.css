@@ -8,12 +8,15 @@
 }
 html {
 	font-size: 18px;
+
+
 }
 
 body {
 	margin: 0;
 	font-family: system-ui, sans-serif;
 	background-color: var(--color-fondo);
+	
 }
 
 h1, h2, h3 {
