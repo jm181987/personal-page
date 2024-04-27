@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exito</title>
+  <style>
+    /* Estilos tridimensionales */
+    body {
+      background: linear-gradient(to bottom, #000033, #000099);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000033;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h3 a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .container1 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .contactInfo, .contactForm {
+      flex: 1;
+    }
+
+    .info {
+      list-style: none;
+      padding: 0;
+    }
+
+    .info li {
+      margin-bottom: 20px;
+    }
+
+    .info li span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .info li span img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .contactForm h2 {
+      margin-bottom: 20px;
+    }
+
+    .formBox {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .inpuBox {
+      margin-bottom: 20px;
+    }
+
+    .inpuBox.w50 {
+      width: 50%;
+      padding-right: 15px;
+    }
+
+    .inpuBox.w100 {
+      width: 100%;
+    }
+
+    .inpuBox input, .inpuBox textarea {
+      width: 100%;
+      padding: 10px;
+      background-color: #000066;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+    }
+
+    .inpuBox input[type="submit"] {
+      cursor: pointer;
+      background-color: #4e4e77;
+      color: #fff;
+      transition: background-color 0.3s ease;
+    }
+
+    .inpuBox input[type="submit"]:hover {
+      background-color: #0000cc;
+    }
+
+    .inpuBox input:focus, .inpuBox textarea:focus {
+      outline: none;
+      box-shadow: 0 0 5px #0000cc;
+    }
+  </style>
+</head>
+<body>
+  <!-- CABECALHO -->
+  <header>
+    <h3><a href="./index.html">Jorge Marquez</a></h3>
+  </header>
+
+  <!-- CORPO -->
+  <main>
+    <!-- Formulatirio-conteiner -->
+    <section>
+      <div class="container1">
+        <!-- Informação de Contacto -->
+        <div class="contactInfo">
+          <h2>Entre en contacto</h2>
+          <ul class="info">
+            <li>
+              <span><img src="./contactos/localizacao.png" alt="Endereço"></span>
+              <span>
+                <span class="headicon">Dirección:</span> <br>
+                Rivera<br>
+                Uruguay <br>
+              </span>
+            </li>
+            <li>
+              <span><img src="./contactos/email.png" alt="Email"></span>
+              <span>
+                <span class="headicon">Email:</span> <br>
+                jorgitom18@gmail.com <br>
+              </span>
+            </li>
+            <li>
+              <span><img src="./contactos/call.png" alt="Endereço"></span>
+              <span>
+                <span class="headicon">Telefono:</span> <br>
+                +598 93867429 <br>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Formulario de Contacto -->
+        <div class="contactForm">
+          <h2>Dejanos un mensaje</h2>
+          <form action="https://formsubmit.co/jorgitom18@gmail.com" method="POST">
+            <div class="formBox">
+              <div class="inpuBox w50">
+                <input type="text" name="Primeiro nome:" required>
+                <span>Nombre:</span>
+              </div>
+
+              <div class="inpuBox w50">
+                <input type="text" name="Ultimo nome" required>
+                <span>Apellido:</span>
+              </div>
+
+              <div class="inpuBox w50">
+                <input type="email" name="email" required>
+                <span>Email:</span>
+              </div>
+
+              <div class="inpuBox w50">
+                <input type="text" name="Numero:r" required>
+                <span>Número de Telefono:</span>
+              </div>
+
+              <div class="inpuBox w100">
+                <textarea name="Mensagem" required></textarea>
+                <span>Escriba su mensaje</span>
+              </div>
+
+              <div class="inpuBox w100">
+                <input type="submit" value="Enviar">
+              </div>
+              <!--
+                Proxima Pagina
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                Este valor é usado para o campo CC do e-mail. Isso permite que você envie uma cópia de cada envio para outro endereço de e-mail.
+                <input type="hidden" name="_cc" value="another@email.com">
+              -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Mapa -->
+  </main>
+
+ 
+</body>
+</html>
